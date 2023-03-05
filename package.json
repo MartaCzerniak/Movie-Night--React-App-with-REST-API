@@ -1,8 +1,8 @@
 {
   "name": "movie_night",
   "version": "0.1.0",
-  "homepage": "https://martaczerniak.github.io/Movie-Night--Movie-Browser-with-API/",
-  "private": true,
+  "homepage": "https://martaczerniak.github.io/Movie-Night--React-App-with-API/",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
