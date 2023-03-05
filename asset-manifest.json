@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Movie-Night--Movie-Browser-with-API/static/css/main.d2954915.css",
+    "main.js": "/Movie-Night--Movie-Browser-with-API/static/js/main.e5d6c926.js",
+    "static/css/522.d09300be.chunk.css": "/Movie-Night--Movie-Browser-with-API/static/css/522.d09300be.chunk.css",
+    "static/js/522.2afe91a6.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/522.2afe91a6.chunk.js",
+    "static/js/284.67663692.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/284.67663692.chunk.js",
+    "static/css/317.e30809d8.chunk.css": "/Movie-Night--Movie-Browser-with-API/static/css/317.e30809d8.chunk.css",
+    "static/js/317.0fadaffe.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/317.0fadaffe.chunk.js",
+    "static/css/796.e30809d8.chunk.css": "/Movie-Night--Movie-Browser-with-API/static/css/796.e30809d8.chunk.css",
+    "static/js/796.92e1b32e.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/796.92e1b32e.chunk.js",
+    "static/css/174.e30809d8.chunk.css": "/Movie-Night--Movie-Browser-with-API/static/css/174.e30809d8.chunk.css",
+    "static/js/174.aa74a860.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/174.aa74a860.chunk.js",
+    "static/js/939.5e16903f.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/939.5e16903f.chunk.js",
+    "static/css/532.e30809d8.chunk.css": "/Movie-Night--Movie-Browser-with-API/static/css/532.e30809d8.chunk.css",
+    "static/js/532.874e97b5.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/532.874e97b5.chunk.js",
+    "static/js/787.4458a3ea.chunk.js": "/Movie-Night--Movie-Browser-with-API/static/js/787.4458a3ea.chunk.js",
+    "index.html": "/Movie-Night--Movie-Browser-with-API/index.html",
+    "main.d2954915.css.map": "/Movie-Night--Movie-Browser-with-API/static/css/main.d2954915.css.map",
+    "main.e5d6c926.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/main.e5d6c926.js.map",
+    "522.d09300be.chunk.css.map": "/Movie-Night--Movie-Browser-with-API/static/css/522.d09300be.chunk.css.map",
+    "522.2afe91a6.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/522.2afe91a6.chunk.js.map",
+    "284.67663692.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/284.67663692.chunk.js.map",
+    "317.e30809d8.chunk.css.map": "/Movie-Night--Movie-Browser-with-API/static/css/317.e30809d8.chunk.css.map",
+    "317.0fadaffe.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/317.0fadaffe.chunk.js.map",
+    "796.e30809d8.chunk.css.map": "/Movie-Night--Movie-Browser-with-API/static/css/796.e30809d8.chunk.css.map",
+    "796.92e1b32e.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/796.92e1b32e.chunk.js.map",
+    "174.e30809d8.chunk.css.map": "/Movie-Night--Movie-Browser-with-API/static/css/174.e30809d8.chunk.css.map",
+    "174.aa74a860.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/174.aa74a860.chunk.js.map",
+    "939.5e16903f.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/939.5e16903f.chunk.js.map",
+    "532.e30809d8.chunk.css.map": "/Movie-Night--Movie-Browser-with-API/static/css/532.e30809d8.chunk.css.map",
+    "532.874e97b5.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/532.874e97b5.chunk.js.map",
+    "787.4458a3ea.chunk.js.map": "/Movie-Night--Movie-Browser-with-API/static/js/787.4458a3ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2954915.css",
+    "static/js/main.e5d6c926.js"
+  ]
+}
