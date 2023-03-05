@@ -26,7 +26,7 @@ ReactDOM.render(
             }
           />
           <Route
-            path="Movie-Night--Movie-Browser-with-API"
+            path="Movie-Night--React-App-with-API"
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <HomePage />
