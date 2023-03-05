@@ -1,3 +1,4 @@
+
 a {
     text-decoration: none;
     color: lightgray;
@@ -40,6 +41,13 @@ a:hover {
 .back-button:hover {
     background-color: #565656;
 }
+ .home-page-div {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+} 
 .home-page {
     position: relative;
     margin: auto;

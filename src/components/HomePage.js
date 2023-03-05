@@ -31,24 +31,26 @@ export default function HomePage() {
   }, []);
 
   return (
-    <ErrorBoundary>
+    <div className="home-page-div">
       <div id="stars"></div>
       <div id="stars2"></div>
       <div id="stars3"></div>
-      <div className="home-pg">
-        <h1 className="home-page-title">What are we watching today?</h1>
-        <div className="home-page-button-container">
-          <MyLink className="button-home-pg" to={"/popularMovies"}>
-            Popular
-          </MyLink>
-          <MyLink className="button-home-pg" to={"/topRated"}>
-            Top Rated
-          </MyLink>
-          <MyLink className="button-home-pg" to={"/upcoming"}>
-            Upcoming
-          </MyLink>
+      <ErrorBoundary>
+        <div className="home-pg">
+          <h1 className="home-page-title">What are we watching today?</h1>
+          <div className="home-page-button-container">
+            <MyLink className="button-home-pg" to={"/popularMovies"}>
+              Popular
+            </MyLink>
+            <MyLink className="button-home-pg" to={"/topRated"}>
+              Top Rated
+            </MyLink>
+            <MyLink className="button-home-pg" to={"/upcoming"}>
+              Upcoming
+            </MyLink>
+          </div>
         </div>
-      </div>
-    </ErrorBoundary>
+      </ErrorBoundary>
+    </div>
   );
 }
