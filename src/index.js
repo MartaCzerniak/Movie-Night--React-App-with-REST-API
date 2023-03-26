@@ -5,13 +5,15 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-const HomePage = lazy(() => import("./components/HomePage"));
-const MoviesPage = lazy(() => import("./components/MoviesPage"));
-const Search = lazy(() => import("./components/Search"));
-const PopularMovies = lazy(() => import("./components/PopularMovies"));
-const TopRated = lazy(() => import("./components/TopRated"));
-const MovieDetailsPage = lazy(() => import("./components/MovieDetailsPage"));
-const Upcoming = lazy(() => import("./components/Upcoming"));
+const HomePage = lazy(() => import("./components/HomePage/HomePage"));
+const MoviesPage = lazy(() => import("./components/MoviesPage/MoviesPage"));
+const Search = lazy(() => import("./components/Search/Search"));
+const PopularMovies = lazy(() => import("./components/Popular/PopularMovies"));
+const TopRated = lazy(() => import("./components/TopRated/TopRated"));
+const MovieDetailsPage = lazy(() =>
+  import("./components/MovieDetailsPage/MovieDetailsPage")
+);
+const Upcoming = lazy(() => import("./components/Upcoming/Upcoming"));
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
@@ -26,7 +28,7 @@ ReactDOM.render(
             }
           />
           <Route
-            path="Movie-Night--React-App-with-API"
+            path="Movie-Night--React-App-with-REST-API"
             element={
               <Suspense fallback={<div>Loading...</div>}>
                 <HomePage />

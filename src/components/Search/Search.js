@@ -6,9 +6,10 @@ import {
   Link,
 } from "react-router-dom";
 import { useEffect, useState, useRef } from "react";
-import ErrorBoundary from "./ErrorBoundary";
-import api from "../services/api";
-import "./Common.css";
+import ErrorBoundary from "../ErrorBoundary";
+import api from "../../services/api";
+import "../Common.css";
+import "./Search.css";
 
 export default function MoviePage(props) {
   let navigate = useNavigate();
@@ -54,7 +55,7 @@ export default function MoviePage(props) {
 
       <div className="search-section">
         <h1>Start searching</h1>
-        <div className="">
+        <div>
           {!params.movieId && (
             <div>
               <form
@@ -70,7 +71,7 @@ export default function MoviePage(props) {
                   Search
                 </button>
               </form>
-              <div>
+              <div className="search-list-div">
                 <ul className="list">
                   {data &&
                     data.map((element) => (

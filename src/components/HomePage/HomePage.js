@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ErrorBoundary from "./ErrorBoundary";
-import api from "../services/api";
-import "./Common.css";
-import "./Stars.css";
+import ErrorBoundary from "../ErrorBoundary";
+import api from "../../services/api";
+import "../Stars.css";
+import "../Common.css";
+import "./HomePage.css";
 
 const newComponent = (Component) => {
   return function NewComponent(props) {
@@ -36,7 +37,7 @@ export default function HomePage() {
       <div id="stars2"></div>
       <div id="stars3"></div>
       <ErrorBoundary>
-        <div className="home-pg">
+        <div className="home-page">
           <h1 className="home-page-title">What are we watching today?</h1>
           <div className="home-page-button-container">
             <MyLink className="button-home-pg" to={"/popularMovies"}>

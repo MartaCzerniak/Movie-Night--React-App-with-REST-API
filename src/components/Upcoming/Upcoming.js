@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ErrorBoundary from "./ErrorBoundary";
-import api from "../services/api";
-import "./Common.css";
+import ErrorBoundary from "../ErrorBoundary";
+import api from "../../services/api";
+import "../Common.css";
 
 const newComponent = (Component) => {
   return function NewComponent(props) {
@@ -22,7 +22,7 @@ export default function HomePage() {
 
   useEffect(() => {
     let abortController = new AbortController();
-    api.fetchMovies("movie/top_rated", abortController).then((response) => {
+    api.fetchMovies("movie/upcoming", abortController).then((response) => {
       setData(response.results);
     });
 
@@ -31,7 +31,7 @@ export default function HomePage() {
 
   return (
     <ErrorBoundary>
-      <h1>Top Rated</h1>
+      <h1 className="title">Upcoming</h1>
       <div className="main-section">
         <div>
           <section>
